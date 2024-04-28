@@ -29,11 +29,6 @@ jobs:
       
     - name: Install dependencies
       run: yarn install
-
-    - name: Unset CI environment variable
-      run: |
-        unset CI
-        echo "CI environment variable unset"
       
     - name: Build
       run: yarn build
