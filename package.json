@@ -18,6 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "start:dev": "yarn install && yarn react-scripts build && yarn react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
